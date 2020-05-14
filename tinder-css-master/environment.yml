@@ -1,0 +1,16 @@
+name: tinder-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - plotly
+  - ipywidgets
+  - nltk
+  - seaborn
+  - pip
+  - pip:
+    - num2words
+    - qgrid
+    - chart_studio
